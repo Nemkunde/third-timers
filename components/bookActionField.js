@@ -1,0 +1,1 @@
+//The admins field to make changes to the books. One to edit that makes it possible to change the names and amount of the books and one to delete books.

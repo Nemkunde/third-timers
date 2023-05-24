@@ -1,0 +1,2 @@
+/*This file will render an admin view with all available book categories a search bar, a sign out button, and five different buttons for the order/action categories of the table: 
+increment/decrement, order, edit and delete button. There will also be a tab for changing tables for user and book view.*/

@@ -1,0 +1,1 @@
+//This file will render a register user view with two input fields for username and password, and a button for register.

@@ -1,0 +1,1 @@
+//This file will render a login view with two input fields for username and password, and two buttons for login and guest user view.
