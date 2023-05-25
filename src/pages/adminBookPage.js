@@ -6,14 +6,18 @@ import React from "react";
 function adminBookPage() {
   return (
     <div className="adminBookPage-container">
-      <input type="text" placeholder="Search query..."></input>
-      <button type="submit">Add new book</button>
+      <input
+        type="text"
+        placeholder="Search query..."
+        name="searchInput"
+      ></input>
+      <button>Add new book</button>
       <table>
         <thead>
           <tr>
             <th>Books title</th>
             <th>Book author</th>
-            <th>availability</th>
+            <th>Availability</th>
           </tr>
         </thead>
         <tbody>
