@@ -1,5 +1,5 @@
-import AdminUserPage from './pages/adminUserPage.js';
-import './App.css';
+import AdminBookPage from "./pages/adminBookPage.js";
+import "./App.css";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <h1>Booksters website</h1>
       </header>
 
-      <AdminUserPage />
+      <AdminBookPage />
     </>
   );
 }
