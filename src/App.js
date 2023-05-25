@@ -1,11 +1,15 @@
-import "./App.css";
-import AdminBookPage from "./pages/adminBookPage";
+import AdminUserPage from './pages/adminUserPage.js';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <AdminBookPage />
-    </div>
+    <>
+      <header>
+        <h1>Booksters website</h1>
+      </header>
+
+      <AdminUserPage />
+    </>
   );
 }
 
