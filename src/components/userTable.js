@@ -1,6 +1,6 @@
 //The admin view of the users table/info
 export default function userTable(){
-    fetch('admin/users')
+    fetch('http://10.0.0.16:3000/admin/users')
      .then(response => response.json())
      .then(data => {
         console.log(data);
