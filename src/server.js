@@ -1,12 +1,12 @@
 import express from 'express';
 import cors from 'cors';
-import authRouter from './router/authRouter.js';
-import bookRouter from './router/bookRouter.js';
-import adminRouter from './router/adminRouter.js';
-import guestRouter from './router/guestRouter.js';
-import authFormatFilter from './middleware/authFormatFilter.js';
-import jwtFilter from './middleware/jwtFilter.js';
-import profileController from './controller/profileController.js';
+import authRouter from '../server/src/router/authRouter.js';
+import bookRouter from '../server/src/router/bookRouter.js';
+import adminRouter from '../server/src/router/adminRouter.js';
+import guestRouter from '../server/src/router/guestRouter.js';
+import authFormatFilter from '../server/src/middleware/authFormatFilter.js';
+import jwtFilter from '../server/src/middleware/jwtFilter.js';
+import profileController from '../server/src/controller/profileController.js';
 
 const port = 3000;
 
